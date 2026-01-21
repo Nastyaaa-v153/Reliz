@@ -428,3 +428,18 @@ section {
   left: 75%;
   top: 0;
 }
+
+
+* p {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.menu-container{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}

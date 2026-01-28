@@ -443,3 +443,39 @@ justify-content: center;
 align-items: center;
 gap: 30px;
 }
+
+.hero-small {
+  height: 50vh;
+}
+
+/* Бронювання */
+.booking {
+  background: antiquewhite;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.booking h2 {
+  margin-bottom: 30px;
+  color: #a80a44;
+}
+
+.booking-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  cursor: pointer;
+}
